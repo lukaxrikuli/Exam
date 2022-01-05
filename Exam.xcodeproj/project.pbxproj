@@ -13,6 +13,16 @@
 		F586A8A02778C0BC00187FE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F586A89E2778C0BC00187FE4 /* Main.storyboard */; };
 		F586A8A22778C0BE00187FE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F586A8A12778C0BE00187FE4 /* Assets.xcassets */; };
 		F586A8A52778C0BE00187FE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F586A8A32778C0BE00187FE4 /* LaunchScreen.storyboard */; };
+		F586A8AF2778EF8400187FE4 /* ChooseMakeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F586A8AE2778EF8300187FE4 /* ChooseMakeViewController.swift */; };
+		F586A8B72779C99F00187FE4 /* MakeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F586A8B62779C99F00187FE4 /* MakeTableViewController.swift */; };
+		F586A8BA277A038000187FE4 /* carMarkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F586A8B8277A038000187FE4 /* carMarkCell.swift */; };
+		F586A8BB277A038000187FE4 /* carMarkCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F586A8B9277A038000187FE4 /* carMarkCell.xib */; };
+		F586A8BD277A0F8500187FE4 /* BrandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F586A8BC277A0F8500187FE4 /* BrandViewController.swift */; };
+		F586A8C1277A563500187FE4 /* BasketUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F586A8C0277A563500187FE4 /* BasketUiView.swift */; };
+		F586A8C3277A580100187FE4 /* PaymentPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F586A8C2277A580100187FE4 /* PaymentPageViewController.swift */; };
+		F586A8C5277DC8F400187FE4 /* BrandsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F586A8C4277DC8F400187FE4 /* BrandsViewController.swift */; };
+		F586A8CE277E007C00187FE4 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F586A8CC277E007C00187FE4 /* ItemCell.swift */; };
+		F586A8CF277E007C00187FE4 /* ItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F586A8CD277E007C00187FE4 /* ItemCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,16 @@
 		F586A8A12778C0BE00187FE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F586A8A42778C0BE00187FE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F586A8A62778C0BE00187FE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F586A8AE2778EF8300187FE4 /* ChooseMakeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseMakeViewController.swift; sourceTree = "<group>"; };
+		F586A8B62779C99F00187FE4 /* MakeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MakeTableViewController.swift; path = ../MakeTableViewController.swift; sourceTree = "<group>"; };
+		F586A8B8277A038000187FE4 /* carMarkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = carMarkCell.swift; sourceTree = "<group>"; };
+		F586A8B9277A038000187FE4 /* carMarkCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = carMarkCell.xib; sourceTree = "<group>"; };
+		F586A8BC277A0F8500187FE4 /* BrandViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandViewController.swift; sourceTree = "<group>"; };
+		F586A8C0277A563500187FE4 /* BasketUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketUiView.swift; sourceTree = "<group>"; };
+		F586A8C2277A580100187FE4 /* PaymentPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentPageViewController.swift; sourceTree = "<group>"; };
+		F586A8C4277DC8F400187FE4 /* BrandsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandsViewController.swift; sourceTree = "<group>"; };
+		F586A8CC277E007C00187FE4 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		F586A8CD277E007C00187FE4 /* ItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +76,23 @@
 		F586A8972778C0BC00187FE4 /* Exam */ = {
 			isa = PBXGroup;
 			children = (
+				F586A8A32778C0BE00187FE4 /* LaunchScreen.storyboard */,
+				F586A89E2778C0BC00187FE4 /* Main.storyboard */,
+				F586A89C2778C0BC00187FE4 /* ViewController.swift */,
+				F586A8AE2778EF8300187FE4 /* ChooseMakeViewController.swift */,
+				F586A8B8277A038000187FE4 /* carMarkCell.swift */,
+				F586A8B9277A038000187FE4 /* carMarkCell.xib */,
+				F586A8C4277DC8F400187FE4 /* BrandsViewController.swift */,
+				F586A8B62779C99F00187FE4 /* MakeTableViewController.swift */,
 				F586A8982778C0BC00187FE4 /* AppDelegate.swift */,
 				F586A89A2778C0BC00187FE4 /* SceneDelegate.swift */,
-				F586A89C2778C0BC00187FE4 /* ViewController.swift */,
-				F586A89E2778C0BC00187FE4 /* Main.storyboard */,
 				F586A8A12778C0BE00187FE4 /* Assets.xcassets */,
-				F586A8A32778C0BE00187FE4 /* LaunchScreen.storyboard */,
 				F586A8A62778C0BE00187FE4 /* Info.plist */,
+				F586A8BC277A0F8500187FE4 /* BrandViewController.swift */,
+				F586A8C0277A563500187FE4 /* BasketUiView.swift */,
+				F586A8C2277A580100187FE4 /* PaymentPageViewController.swift */,
+				F586A8CC277E007C00187FE4 /* ItemCell.swift */,
+				F586A8CD277E007C00187FE4 /* ItemCell.xib */,
 			);
 			path = Exam;
 			sourceTree = "<group>";
@@ -126,6 +156,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F586A8A52778C0BE00187FE4 /* LaunchScreen.storyboard in Resources */,
+				F586A8CF277E007C00187FE4 /* ItemCell.xib in Resources */,
+				F586A8BB277A038000187FE4 /* carMarkCell.xib in Resources */,
 				F586A8A22778C0BE00187FE4 /* Assets.xcassets in Resources */,
 				F586A8A02778C0BC00187FE4 /* Main.storyboard in Resources */,
 			);
@@ -139,8 +171,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				F586A89D2778C0BC00187FE4 /* ViewController.swift in Sources */,
+				F586A8C5277DC8F400187FE4 /* BrandsViewController.swift in Sources */,
+				F586A8C3277A580100187FE4 /* PaymentPageViewController.swift in Sources */,
 				F586A8992778C0BC00187FE4 /* AppDelegate.swift in Sources */,
+				F586A8BD277A0F8500187FE4 /* BrandViewController.swift in Sources */,
 				F586A89B2778C0BC00187FE4 /* SceneDelegate.swift in Sources */,
+				F586A8B72779C99F00187FE4 /* MakeTableViewController.swift in Sources */,
+				F586A8CE277E007C00187FE4 /* ItemCell.swift in Sources */,
+				F586A8BA277A038000187FE4 /* carMarkCell.swift in Sources */,
+				F586A8C1277A563500187FE4 /* BasketUiView.swift in Sources */,
+				F586A8AF2778EF8400187FE4 /* ChooseMakeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,7 +346,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -334,7 +374,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
